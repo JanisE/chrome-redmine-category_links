@@ -3,6 +3,9 @@
 
     "name": "Redmine category links",
     "description": "Project URL: https://github.com/JanisE/chrome-redmine-category_links",
+    "icons": {
+        "128": "icon128.png"
+    },
     "version": "1.0",
     "content_scripts": [{
         "matches": [
