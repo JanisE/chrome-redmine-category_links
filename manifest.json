@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+
+    "name": "Redmine category links",
+    "description": "Project URL: https://github.com/JanisE/chrome-redmine-category_links",
+    "version": "1.0",
+    "content_scripts": [{
+        "matches": [
+            "<all_urls>"
+        ],
+        "js": ["add_link.js"]
+    }]
+}
